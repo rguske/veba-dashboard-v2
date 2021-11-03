@@ -2,6 +2,7 @@
 
 ## Prerequisites vRealize Operations Manager
 
+- **Dashboard is not compatible with vROps 8.6 at the moment!**
 - Dashboard tested with vROps version 8.5 - [DOWNLOAD](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_vrealize_operations/8_5)
 - Install vRealize Operations Management Pack for Kubernetes - [DOWNLOAD](https://marketplace.cloud.vmware.com/services/details/vrealize-operations-management-pack-for-kubernetes-1-5-1?slug=true)
 -- Tested with version 1.5.1
