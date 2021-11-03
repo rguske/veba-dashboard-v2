@@ -2,8 +2,7 @@
 
 ## Prerequisites vRealize Operations Manager
 
-- **Dashboard is not compatible with vROps 8.6 at the moment!**
-- Dashboard tested with vROps version 8.5 - [DOWNLOAD](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_vrealize_operations/8_5)
+- Dashboard tested with vROps version 8.5 as well as 8.6 - [DOWNLOAD](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_vrealize_operations/8_5)
 - Install vRealize Operations Management Pack for Kubernetes - [DOWNLOAD](https://marketplace.cloud.vmware.com/services/details/vrealize-operations-management-pack-for-kubernetes-1-5-1?slug=true)
 -- Tested with version 1.5.1
 - Mgmt Pack for K8s - [DOCS](https://docs.vmware.com/en/Management-Packs-for-vRealize-Operations-Manager/1.5.1/kubernetes-solution/GUID-10599FD5-4519-4B99-90A6-11168693E283.html)
@@ -23,7 +22,7 @@ grep 'client-certificate-data\|client-key-data\|certificate-authority-data' ~/.k
 
 ## Configure a Dynamic Custom Group in vROps
 
-To only have your VEBA instances displayed on the dashboard, we have to configure a Dynamic Custom Group in vROps which has a vSphere Tag based membership criteria configured.
+To only have your VEBA instances displayed on the dashboard, you have to configure a Dynamic Custom Group in vROps which has to be named as **VEBA Instances** (there's a widget which depends on the name) and  which has a vSphere Tag based membership criteria configured.
 
 - Creation of a Dynamic Custom Group in vROps - [DOCS](https://docs.vmware.com/en/vRealize-Operations-Manager/8.4/com.vmware.vcom.core.doc/GUID-07BA3A0D-0F3D-494A-B4F1-A0381DD837D6.html)
 
