@@ -20,6 +20,12 @@ grep 'client-certificate-data\|client-key-data\|certificate-authority-data' ~/.k
 
 ![veba-adapter-instance-vrops](https://user-images.githubusercontent.com/31652019/136001604-c4ec5bd0-b246-4b87-9a61-f7b946694e66.jpg)
 
+## Configure vSphere Tag
+
+In order to monitor only VEBA instances with the dashboard, a vRealize Operations Manager Dynamic Custom Group with a defined membership criteria is required. A membership criteria could be e.g. a vSpgere Tag. Create a new tag categorie as well as a new vSphere tag which can be assigned to your instances.
+
+![image](https://user-images.githubusercontent.com/31652019/144069676-b77f0a74-dfbb-4921-bdc4-b524b2e73ab1.png)
+
 ## Configure a Dynamic Custom Group in vROps
 
 To only have your VEBA instances displayed on the dashboard, you have to configure a Dynamic Custom Group in vROps which has to be named as **VEBA Instances** (there's a widget which depends on the name) and  which has a vSphere Tag based membership criteria configured.
