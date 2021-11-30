@@ -3,8 +3,8 @@
 ## Prerequisites vRealize Operations Manager
 
 - Dashboard tested with vROps version 8.5 as well as 8.6 - [DOWNLOAD](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_vrealize_operations/8_5)
-- Install vRealize Operations Management Pack for Kubernetes - [DOWNLOAD](https://marketplace.cloud.vmware.com/services/details/vrealize-operations-management-pack-for-kubernetes-1-5-1?slug=true)
--- Tested with version 1.5.1
+- Install vRealize Operations Management Pack for Kubernetes
+-- Tested with version 1.5.1 [DOWNLOAD](https://marketplace.cloud.vmware.com/services/details/vrealize-operations-management-pack-for-kubernetes-1-5-1?slug=true) and 1.6 [DOWNLOAD](https://marketplace.cloud.vmware.com/services/details/vrealize-operations-management-pack-for-kubernetes-1-5-11111?slug=true) 
 - Mgmt Pack for K8s - [DOCS](https://docs.vmware.com/en/Management-Packs-for-vRealize-Operations-Manager/1.5.1/kubernetes-solution/GUID-10599FD5-4519-4B99-90A6-11168693E283.html)
 
 ## Add VEBA as a new endpoint to vROps
